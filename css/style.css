@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+body{
+    background-color: rgba(0, 0, 0, 0.849);
+    margin: 100px 300px;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.842);
+    border: 2px solid rgb(252, 41, 4);
+    border-radius: 30px;
+    padding: 50px 30px;
+    text-align: center;
+}
+#resultado{
+    background-color: white;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 10px 100px;
+}
+button{
+    padding: 5  px 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+#botones{
+    margin: 20px;
+}
+#convertir{
+    color: white;
+    background-color: rgb(17, 192, 17);
+    margin: 20px 30px;
+    padding: 7px 65px;
+}
+#borrar{
+    color: white;
+    background-color: red;
+    margin: 20px 30px;
+    padding: 7px 65px;
+}
+input{
+    padding: 5px 0px;
+    border-radius: 6px;
+    text-align: center;
+}
+select{
+    padding: 5px;
+    border-radius: 5px;
+}
+.verifExitosa {
+    padding: 10px;
+    color: white;
+    background-color:rgb(17, 192, 17);
+    margin: 10px ;
+    border-radius: 10px;
+}
+.verifError {
+    padding: 10px;
+    color: white;
+    background-color:rgb(221, 35, 35);
+    margin: 10px ;
+    border-radius: 10px;
+}

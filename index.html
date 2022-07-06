@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div >
+            <p id="resultado">Cantidad de Dinero</p>
+        </div>
+        <input type="number" id="precio" placeholder="valor">
+        <div id="botones">
+            <div id="moneda1">
+                <select id="selectMoney1">
+                    <option value="pesoColombiano">Peso Colombiano</option>
+                    <option value="dolar">Dolar</option>
+                    <option value="euro" >Euro</option>
+                    <option value="pesoMexicano">Peso Mexicano</option>
+                    <option value="libraEsterlina">Libra Esterlina</option>
+                </select>
+                </div>
+        </div>
+        <div>
+            <div id="moneda2">
+                <select id="selectMoney2">
+                    <option value="dolar">Dolar</option>
+                    <option value="pesoColombiano">Peso Colombiano</option>
+                    <option value="euro">Euro</option>
+                    <option value="pesoMexicano">Peso Mexicano</option>
+                    <option value="libraEsterlina">Libra Esterlina</option>
+                </select>
+                </div>
+        </div>
+        <div id="verificacion">
+            <button id="convertir" onclick="convertir()">Convertir</button>
+        </div>        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
